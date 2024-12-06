@@ -28,7 +28,6 @@ are assigned activities by the activity manager and through the resource manager
 - Be able to implement notifications through callbacks between different components, most notably between the resource manager and the production line, and between the activity manager and the robots.
 - Be able to run activities concurrently, and be able to dynamically adjust the activities based on the current status of the resources.
 - Be able to easily extend the implementation by adding new activity types, resources, or robot types.
-- Keep the 
 
 ## Possible improvements:
 - Use a priority queue instead of a normal queue, to be able to compute priority scores for each activity separately (e.g at the start of the production line activities that to accumulate resources should be the priority, minimize activity switching to avoid penalty of switching)
